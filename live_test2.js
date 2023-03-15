@@ -106,8 +106,8 @@
                     skin: {defaultValue: !1, displayName: "房间皮肤"}
                 }
             })({
-                name: "simplifyLiveroom",
-                displayName: "简化直播间",
+                name: "simplifyLiveroomTemp",
+                displayName: "简化直播间（临时版）",
                 entry: (0, t.styledComponentEntry)((() => Promise.resolve().then(o.t.bind(o, 330, 23))), (async () => {
                     const {setupSkinSimplify: i} = await Promise.resolve().then(o.bind(o, 913));
                     i()
